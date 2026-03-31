@@ -1,0 +1,32 @@
+.ai-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* Row highlights */
+.row-red {
+  background-color: #fdecea !important;
+}
+
+.row-yellow {
+  background-color: #fff8e1 !important;
+}
+
+.row-green {
+  background-color: #e6f4ea !important;
+}
+
+/* Hover effect */
+tr.zA:hover {
+  transition: background 0.2s ease-in-out;
+}
+
+/* Dot hover */
+.ai-dot:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
